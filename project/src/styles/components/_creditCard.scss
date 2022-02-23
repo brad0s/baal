@@ -1,0 +1,77 @@
+.Credit-card {
+  max-width: 335px;
+  width: 100%;
+  // width: 335px;
+  min-height: 194px;
+  border-radius: 50px 0 50px 0;
+  padding: 33px 38px 18px 33px;
+  background-size: cover;
+  box-sizing: border-box;
+  transition: transform 200ms ease-in-out;
+
+  @include screen-lg() {
+    max-width: 443px;
+    min-height: 252px;
+  }
+
+  &--default {
+    background-image: url(../../../public/Background.png);
+  }
+
+  &--purple {
+    background-color: #ebedff;
+    background-image: unset;
+  }
+
+  &--white {
+    background-color: #fff;
+    background-image: unset;
+  }
+
+  &:hover {
+    transform: rotate(-3deg);
+  }
+
+  &__top {
+    margin-bottom: 37px;
+
+    img {
+      &.logo {
+        width: 66px;
+        height: 14px;
+
+        @include screen-lg() {
+          width: 85px;
+          height: 18px;
+        }
+      }
+
+      &.symbols {
+        width: 54px;
+        height: 28px;
+
+        @include screen-lg() {
+          width: 71px;
+          height: 36px;
+        }
+      }
+    }
+  }
+
+  &__chip {
+    margin-bottom: 21px;
+  }
+
+  &__text {
+    font: $bold 18px/19.62px $j;
+    letter-spacing: 0.3125em;
+    color: $black-200;
+    margin-bottom: 12px;
+  }
+
+  &__code {
+    font: $reg 10px/10.9px $j;
+    letter-spacing: 5px;
+    color: #474c5f;
+  }
+}

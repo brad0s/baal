@@ -1,0 +1,25 @@
+.Cards {
+  background-color: $black-200;
+  color: $white-100;
+  @include gutters();
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__title {
+    @include h2();
+    margin-bottom: 47px;
+    margin-top: 0;
+    // box-sizing: border-box;
+    // text-align: center;
+  }
+
+  &__list {
+    gap: 40px 33px;
+
+    .Card__wrapper {
+      max-width: 383px;
+      width: 100%;
+    }
+  }
+}

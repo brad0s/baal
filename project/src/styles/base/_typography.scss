@@ -1,0 +1,24 @@
+@mixin h1 {
+  font: $med 65px/70.85px $cg;
+  letter-spacing: 0px;
+  color: $black-200;
+}
+
+@mixin h2 {
+  font: $med 48px/52.32px $cg;
+  letter-spacing: 0px;
+  color: $white-100;
+}
+
+@mixin h3 {
+  font: $med 36px/50.14px $cg;
+  letter-spacing: 0;
+  color: $white-100;
+  margin-top: 0;
+}
+
+@mixin p {
+  font: $reg 16px/22.4px $j;
+  letter-spacing: 0px;
+  color: $black-200;
+}

@@ -1,0 +1,20 @@
+.Card {
+  background-color: $black-100;
+  padding: 36px;
+
+  &__title {
+    @include h3();
+    color: $white-100;
+    margin-bottom: 18px;
+  }
+
+  &__description {
+    @include p();
+    color: $white-100;
+    opacity: 0.4;
+    margin-bottom: 18px;
+  }
+
+  &__button {
+  }
+}

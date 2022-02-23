@@ -1,0 +1,24 @@
+.roundButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 0 13px;
+  height: 33px;
+  border: none;
+  color: white;
+  font: $med 15px/13.8px 'Helvetica Neue';
+  width: 139px;
+  letter-spacing: 1%;
+  cursor: pointer;
+  transition: opacity 200ms ease-in-out transform 200ms ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}

@@ -1,0 +1,12 @@
+.Fast-fact {
+  margin-bottom: 40px;
+
+  &__text {
+    font: $light 13px/1 $j;
+    margin-bottom: 5px;
+  }
+
+  &__number {
+    font: $sb 20px/1 $j;
+  }
+}

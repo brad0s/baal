@@ -1,0 +1,10 @@
+@mixin gutters() {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+@mixin screen-lg {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
